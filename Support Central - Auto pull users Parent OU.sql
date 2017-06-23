@@ -1,10 +1,10 @@
 DECLARE
-	@CustomerId int=1,
-	@ProviderId int=1,
+    @CustomerId int=1,
+    @ProviderId int=1,
     @OUId int=576,
     @Parent int=null,
     @ParentName varchar(20)=null,
-	@parentnameoutput varchar(50)=null
+    @parentnameoutput varchar(50)=null
 
     select @parent = ParentOUId
     from dbo.diagwin_OU
