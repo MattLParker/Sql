@@ -3,7 +3,7 @@ DECLARE
     @ProviderId int=1,
     @OUId int=576,
     @Parent int=null,
-    @ParentName varchar(20)=null,
+    @ParentName varchar(50)=null,
     @parentnameoutput varchar(50)=null
 
     select @parent = ParentOUId
